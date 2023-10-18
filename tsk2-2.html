@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white; 
+  border: 1px solid black;
+  padding: 10px; 
+  width: max-content; /* Adjusted the width to fit the content */
+}
+
+.navbar a {
+  padding: 10px;
+  color: blue; 
+  text-decoration: none;
+  background-color: rgb(225, 227, 235); /* Changed background color to blue */
+  border-right: 1px solid rgb(24, 13, 241); /* Added blue borders between items */
+}
+
+.navbar a:last-child {
+  border-right: none; /* Removed the border from the last item */
+}
+
+.navbar a:hover {
+  background-color: darkgrey; /* Updated the hover background color to dark grey */
+}
+
+.navbar .empty-division {
+  width: 100px; /* Empty division with a fixed width */
+}
+</style>
+</head>
+<body>
+  <div><a href="./index.html">Back to Index Page</a></div>
+
+<div class="navbar">
+  <a href="/home">Home</a>
+  <a href="/java">Java</a>
+  <a href="/css">CSS</a>
+  <a href="/html">HTML</a>
+  <div class="empty-division"></div> <!-- Empty division -->
+</div>
+
+</body>
+</html>
